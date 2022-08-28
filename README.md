@@ -15,3 +15,23 @@ ts_code trade_date  open  high  ...  change  pct_chg         vol       amount
 
 
 Baostock : http://baostock.com/baostock/index.php/Python_API%E6%96%87%E6%A1%A3
+
+
+
+## 数据抓取模块
+一、东方财富【股吧全部内容】
+沪深300
+http://guba.eastmoney.com/list,zssz399300.html
+http://guba.eastmoney.com/list,zssh000300.html
+沪深300成分股（可根据此列表得到其他股票代码）
+https://data.eastmoney.com/other/index/
+举例：平安银行（URL中list,股票代码）
+http://guba.eastmoney.com/list,000001.html
+
+二、新浪财经【网友讨论和公司新闻】
+万科A（URL中name=股票代码） 
+https://guba.sina.com.cn/?s=bar&name=sz000002
+
+三、微博【全部内容】
+举例：平安银行股票代码sz000001
+https://s.weibo.com/weibo?q=sz000001

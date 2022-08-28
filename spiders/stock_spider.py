@@ -9,7 +9,6 @@ tushare_token = '7daf71578ad8d18478b37df3bfcb02bc201b10134069f9afa6c94d44'
 
 
 class StockSpider(object):
-
     def __init__(self, workdir: str) -> None:
         self.workdir = workdir
         self.ts_api = self.init_ts()
@@ -29,7 +28,7 @@ class StockSpider(object):
         self.ts_api.daily(ts_code=code, start_date=start, end_date=end)
         # self.ts_api.daily(ts_code='000001.SZ', start_date='19800701', end_date='20180718')
 
-    def get_history_k_data(self, code: str,start:str,end:str):
+    def get_history_k_data(self, code: str, start: str, end: str):
         # self.bs_api.query_history_k_data_plus(
         #     "sh.600000",
         #     "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",

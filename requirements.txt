@@ -2,3 +2,4 @@ tqdm
 loguru
 tushare
 baostock
+beautifulsoup4
