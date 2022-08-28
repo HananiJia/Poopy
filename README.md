@@ -35,3 +35,4 @@ https://guba.sina.com.cn/?s=bar&name=sz000002
 三、微博【全部内容】
 举例：平安银行股票代码sz000001
 https://s.weibo.com/weibo?q=sz000001
+https://s.weibo.com/weibo?q=sz000001&typeall=1&suball=1&timescope=custom:2020-01-01-0:2022-01-01-0&Refer=g
